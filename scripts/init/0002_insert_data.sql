@@ -1,0 +1,2 @@
+INSERT INTO public.test_table (id, name, address, created_at) VALUES (1, 'joe', '123 Evergreen', '2019-08-07 13:35:36.000000');
+INSERT INTO public.test_table (id, name, address, created_at) VALUES (2, 'david', '45 warren', '2019-06-12 12:36:07.000000');
