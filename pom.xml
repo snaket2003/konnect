@@ -16,6 +16,8 @@
 
         <drivers.dir>${project.basedir}/drivers</drivers.dir>
         <drivers.downloader.phase>pre-integration-test</drivers.downloader.phase>
+
+        <spring.kafka.version>2.4.5.RELEASE</spring.kafka.version>
     </properties>
 
     <parent>
@@ -121,6 +123,12 @@
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-testbench</artifactId>
             <scope>test</scope>
+        </dependency>
+        <!-- Konnect Project Dependencies -->
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+            <version>${spring-kafka.version}</version>
         </dependency>
     </dependencies>
 

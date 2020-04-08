@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+vaadin:
+  compatibilityMode: false
+
+logging:
+  level:
+    org:
+      atmosphere: warn
+
+kafka:
+  bootstrap-servers: "localhost:9092"
+  group-id: "konnect-app"
+  offset-topic: "quickstart-offsets"
